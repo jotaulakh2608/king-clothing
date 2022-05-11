@@ -1,0 +1,25 @@
+.sign-in{
+  @media screen and (max-width:800px){
+    margin-bottom: 55px;
+  }
+display: flex;
+flex-direction: column;
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;    
+    @media screen and (max-width:800px){
+      width: 80vw;
+    }
+
+
+    .button{
+        display: flex;
+      justify-content: space-between;
+      width: 100%;
+       
+    }
+}
+
+}

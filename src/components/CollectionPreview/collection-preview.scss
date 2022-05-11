@@ -1,0 +1,23 @@
+.collection-preview{
+    display: flex;
+    flex-direction: column;
+
+   
+   
+}
+.title{
+    @media screen and (max-width:800px){
+    display: flex;
+justify-content: center;}
+   font-size: 34px;
+   margin-bottom: 18px;
+}
+.preview{
+    display: flex;
+   justify-content: space-between;
+   @media screen and (max-width:800px){
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+  }
+}

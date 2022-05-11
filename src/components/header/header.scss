@@ -1,0 +1,32 @@
+.header{
+    @media screen and (max-width:800px){
+        padding: 0px;
+
+    }
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.options{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+align-items: center;
+
+@media screen and (max-width:800px){
+   width: 80%;
+}
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    cursor: pointer;
+}

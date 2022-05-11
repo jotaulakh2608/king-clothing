@@ -1,0 +1,34 @@
+.checkout-page{
+    @media screen and (max-width:800px){
+        width: 90%;
+    }
+    display: flex;
+width: 55%;
+margin: 50px auto 0;
+flex-direction: column;
+min-height: 90vh;
+
+
+.checkout-header{
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: gray 2px solid;
+}
+
+.header-block{
+    display: flex;
+    width: 23%;
+    &:last-child{
+        width: 8%;
+    }
+}
+
+
+.total{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+}

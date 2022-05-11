@@ -1,0 +1,22 @@
+.shopping-icon{
+
+    display: flex;
+    justify-content: center;
+
+
+    .icon{
+        display: flex;
+        height: 22px;
+
+    }
+
+    .item-count{
+        position:absolute;
+        top: 47px;
+        font-size: 12px;
+
+        @media screen and (max-width:800px){
+           top: 38px;
+        }
+    }
+}
