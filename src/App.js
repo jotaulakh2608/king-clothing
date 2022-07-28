@@ -50,7 +50,7 @@ function App() {
     <GlobalStles/>
           <Header />
           <Switch>
-            <Route exact path="/king-clothing" component={Homepage} />
+            <Route  path="/king-clothing" component={Homepage} />
             <Route path="/shop" component={ShopPage} /> 
             <Route path="/checkout" component={CheckOut} />
             <Route exact path="/signup"  render={() =>
