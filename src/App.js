@@ -49,8 +49,8 @@ function App() {
     <div>
     <GlobalStles/>
           <Header />
-          <Switch>
-            <Route  path="/king-clothing" component={Homepage} />
+          <Switch >
+            <Route path="/king-clothing" component={Homepage} />
             <Route path="/shop" component={ShopPage} /> 
             <Route path="/checkout" component={CheckOut} />
             <Route exact path="/signup"  render={() =>
