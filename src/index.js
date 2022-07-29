@@ -10,7 +10,7 @@ import {PersistGate} from 'redux-persist/integration/react'
 ReactDOM.render(
 
   <Provider store={store}>
-  <HashRouter  >
+  <HashRouter basename='/' >
   <PersistGate persistor={persistor}>
     <App />
   </PersistGate>

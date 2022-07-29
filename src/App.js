@@ -50,9 +50,12 @@ function App() {
     <GlobalStles/>
           <Header />
           <Switch >
-            <Route path="/" component={Homepage} />
+            <Route exact path="/" component={Homepage} />
+
             <Route path="/shop" component={ShopPage} /> 
+
             <Route path="/checkout" component={CheckOut} />
+            
             <Route exact path="/signup"  render={() =>
                 currentUser ? <Redirect to="/" /> : <SignUp />
               }
